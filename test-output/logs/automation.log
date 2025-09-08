@@ -1,0 +1,185 @@
+2025-09-08 11:06:02.058 INFO  [Positive_-_Creation_of_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:07:15.368 INFO  [Positive_-_Creation_of_service_type] [step=01] AddServiceTypeSteps - Logged in successfully and navigated to home page
+2025-09-08 11:07:22.219 INFO  [Positive_-_Creation_of_service_type] [step=02] AddServiceTypeSteps - Clicked on appointment scheduling
+2025-09-08 11:07:23.000 INFO  [Positive_-_Creation_of_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:07:26.804 INFO  [Positive_-_Creation_of_service_type] [step=04] AddServiceTypeSteps - Clicked on Manager Service Type
+2025-09-08 11:07:29.203 INFO  [Positive_-_Creation_of_service_type] [step=05] AddServiceTypeSteps - Clicked on Add Service Type
+2025-09-08 11:07:30.930 INFO  [Positive_-_Creation_of_service_type] [step=06] AddServiceTypeSteps - user entered details
+2025-09-08 11:07:32.970 INFO  [Positive_-_Creation_of_service_type] [step=07] AddServiceTypeSteps - Clicked on save button
+2025-09-08 11:07:33.352 INFO  [Positive_-_Creation_of_service_type] [step=08] AddServiceTypeSteps - user will be directed to 
+2025-09-08 11:07:33.569 INFO  [Positive_-_Creation_of_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:08:02.967 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:08:15.742 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=01] AddServiceTypeSteps - Logged in successfully and navigated to home page
+2025-09-08 11:08:17.657 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=02] AddServiceTypeSteps - Clicked on appointment scheduling
+2025-09-08 11:08:17.839 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:08:20.241 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=04] AddServiceTypeSteps - Clicked on Manager Service Type
+2025-09-08 11:08:21.891 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=05] AddServiceTypeSteps - Clicked on Add Service Type
+2025-09-08 11:08:22.621 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=06] AddServiceTypeSteps - user entered details
+2025-09-08 11:08:24.160 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=07] AddServiceTypeSteps - Clicked on save button
+2025-09-08 11:08:24.532 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=08] AddServiceTypeSteps - user will see a message
+2025-09-08 11:08:24.694 INFO  [Nrgative_-_creation_of_duplicate_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:08:37.155 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:08:47.536 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=01] AddPatientSteps - Logged in successfully and navigated to home page
+2025-09-08 11:09:07.679 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=02] AddPatientSteps - Clicked on register patient menu
+2025-09-08 11:09:07.940 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:09:10.023 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=04] AddPatientSteps - user enters patient details
+2025-09-08 11:09:15.306 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=05] AddPatientSteps - Clicked on submit button
+2025-09-08 11:09:22.317 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=06] AddPatientSteps - The user will see the 
+2025-09-08 11:09:22.546 INFO  [Positive_-_Registration_of_patient_with_all_details] [step=06] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:09:26.709 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:09:34.387 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=01] AddPatientSteps - Logged in successfully and navigated to home page
+2025-09-08 11:09:50.848 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=02] AddPatientSteps - Clicked on register patient menu
+2025-09-08 11:09:51.046 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:09:51.366 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=04] AddPatientSteps - user enters few patient details
+2025-09-08 11:09:51.563 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=05] AddPatientSteps - user will see a validation error 
+2025-09-08 11:09:51.682 INFO  [Negative_-_Attempt_to_register_patient_with_missing_fields] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:09:54.216 INFO  [Positive_-_Finding_a_valid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:10:04.913 INFO  [Positive_-_Finding_a_valid_patient_record] [step=01] FindPatientRecordSteps - Logged in successfully and navigated to home page
+2025-09-08 11:10:08.382 INFO  [Positive_-_Finding_a_valid_patient_record] [step=02] FindPatientRecordSteps - user clicks on find patient record
+2025-09-08 11:10:08.652 INFO  [Positive_-_Finding_a_valid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:10:26.280 INFO  [Positive_-_Finding_a_valid_patient_record] [step=04] FindPatientRecordSteps - user enters patient name and clicks on details
+2025-09-08 11:10:26.531 INFO  [Positive_-_Finding_a_valid_patient_record] [step=05] FindPatientRecordSteps - user should see a record with given patient name
+2025-09-08 11:10:26.744 INFO  [Positive_-_Finding_a_valid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:10:29.244 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:10:38.344 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=01] FindPatientRecordSteps - Logged in successfully and navigated to home page
+2025-09-08 11:10:44.640 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=02] FindPatientRecordSteps - user clicks on find patient record
+2025-09-08 11:10:44.908 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 11:10:55.434 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=04] FindPatientRecordSteps - user enters patient name and clicks on details
+2025-09-08 11:10:55.640 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=05] FindPatientRecordSteps - user should see non matching text
+2025-09-08 11:10:55.798 INFO  [Negative_-_Attempt_to_find_a_invalid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:10:58.742 INFO  [Positive_-_Login_with_valid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:11:06.998 INFO  [Positive_-_Login_with_valid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 11:11:07.609 INFO  [Positive_-_Login_with_valid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 11:11:09.969 INFO  [Positive_-_Login_with_valid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 11:11:10.214 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 11:11:10.395 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - ===== END SCENARIO =====
+2025-09-08 11:11:13.262 INFO  [Negative_-_Login_with_invalid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 11:11:16.302 INFO  [Negative_-_Login_with_invalid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 11:11:20.180 INFO  [Negative_-_Login_with_invalid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 11:11:22.098 INFO  [Negative_-_Login_with_invalid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 11:11:22.363 INFO  [Negative_-_Login_with_invalid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 11:11:22.572 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - An error message is displayed
+2025-09-08 11:11:22.715 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:04:46.040 INFO  [Positive_-_Creation_of_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:06:03.660 INFO  [Positive_-_Creation_of_service_type] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:06:06.940 INFO  [Positive_-_Creation_of_service_type] [step=02] LoginSteps - Clicked on appointment scheduling
+2025-09-08 16:06:07.223 INFO  [Positive_-_Creation_of_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:06:10.206 INFO  [Positive_-_Creation_of_service_type] [step=04] LoginSteps - Clicked on Manager Service Type
+2025-09-08 16:06:11.776 INFO  [Positive_-_Creation_of_service_type] [step=05] LoginSteps - Clicked on Add Service Type
+2025-09-08 16:06:13.342 INFO  [Positive_-_Creation_of_service_type] [step=06] LoginSteps - user entered details
+2025-09-08 16:06:15.422 INFO  [Positive_-_Creation_of_service_type] [step=07] LoginSteps - Clicked on save button
+2025-09-08 16:06:15.849 INFO  [Positive_-_Creation_of_service_type] [step=08] LoginSteps - user will be directed to Manage Service Types
+2025-09-08 16:06:17.186 INFO  [Positive_-_Creation_of_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:06:21.394 INFO  [Negative_-_creation_of_duplicate_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:06:30.550 INFO  [Negative_-_creation_of_duplicate_service_type] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:06:34.504 INFO  [Negative_-_creation_of_duplicate_service_type] [step=02] LoginSteps - Clicked on appointment scheduling
+2025-09-08 16:06:34.658 INFO  [Negative_-_creation_of_duplicate_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:06:36.787 INFO  [Negative_-_creation_of_duplicate_service_type] [step=04] LoginSteps - Clicked on Manager Service Type
+2025-09-08 16:06:37.916 INFO  [Negative_-_creation_of_duplicate_service_type] [step=05] LoginSteps - Clicked on Add Service Type
+2025-09-08 16:06:38.461 INFO  [Negative_-_creation_of_duplicate_service_type] [step=06] LoginSteps - user entered details
+2025-09-08 16:06:40.484 INFO  [Negative_-_creation_of_duplicate_service_type] [step=07] LoginSteps - Clicked on save button
+2025-09-08 16:06:40.665 INFO  [Negative_-_creation_of_duplicate_service_type] [step=08] LoginSteps - user will see a messageName is duplicated
+2025-09-08 16:06:41.530 INFO  [Negative_-_creation_of_duplicate_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:06:42.981 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:06:50.299 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:07:17.170 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=02] LoginSteps - Clicked on register patient menu
+2025-09-08 16:07:17.331 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:07:18.460 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=04] LoginSteps - user enters patient details
+2025-09-08 16:07:23.736 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=05] LoginSteps - Clicked on submit button
+2025-09-08 16:07:33.206 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=06] LoginSteps - The user will see the Patient ID
+2025-09-08 16:07:34.108 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=06] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:07:36.823 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:07:43.183 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:08:00.175 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=02] LoginSteps - Clicked on register patient menu
+2025-09-08 16:08:00.560 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:08:00.839 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=04] LoginSteps - user enters few patient details
+2025-09-08 16:08:01.106 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=05] LoginSteps - user will see a validation error Given Name
+2025-09-08 16:08:01.981 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:08:04.147 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:08:11.911 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:08:16.999 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=02] LoginSteps - user clicks on find patient record
+2025-09-08 16:08:17.205 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:08:27.592 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=04] LoginSteps - user enters patient name and clicks on details
+2025-09-08 16:08:29.666 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:08:31.686 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:08:43.389 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:08:50.220 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=02] LoginSteps - user clicks on find patient record
+2025-09-08 16:08:50.387 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:09:00.879 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=04] LoginSteps - user enters patient name and clicks on details
+2025-09-08 16:09:01.072 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=05] LoginSteps - user should see non matching text
+2025-09-08 16:09:02.427 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:09:04.063 INFO  [Positive_-_Login_with_valid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:09:10.398 INFO  [Positive_-_Login_with_valid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 16:09:11.015 INFO  [Positive_-_Login_with_valid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 16:09:14.526 INFO  [Positive_-_Login_with_valid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 16:09:14.706 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 16:09:15.615 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:09:21.091 INFO  [Negative_-_Login_with_invalid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:09:28.226 INFO  [Negative_-_Login_with_invalid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 16:09:28.828 INFO  [Negative_-_Login_with_invalid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 16:09:30.228 INFO  [Negative_-_Login_with_invalid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 16:09:30.435 INFO  [Negative_-_Login_with_invalid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 16:09:31.540 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - An error message is displayed
+2025-09-08 16:09:32.848 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:13:30.238 INFO  [Positive_-_Creation_of_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:13:41.270 INFO  [Positive_-_Creation_of_service_type] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:13:44.150 INFO  [Positive_-_Creation_of_service_type] [step=02] LoginSteps - Clicked on appointment scheduling
+2025-09-08 16:13:44.412 INFO  [Positive_-_Creation_of_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:13:46.485 INFO  [Positive_-_Creation_of_service_type] [step=04] LoginSteps - Clicked on Manager Service Type
+2025-09-08 16:13:47.784 INFO  [Positive_-_Creation_of_service_type] [step=05] LoginSteps - Clicked on Add Service Type
+2025-09-08 16:13:48.610 INFO  [Positive_-_Creation_of_service_type] [step=06] LoginSteps - user entered details
+2025-09-08 16:13:50.300 INFO  [Positive_-_Creation_of_service_type] [step=07] LoginSteps - Clicked on save button
+2025-09-08 16:13:50.609 INFO  [Positive_-_Creation_of_service_type] [step=08] LoginSteps - user will be directed to Manage Service Types
+2025-09-08 16:13:50.770 INFO  [Positive_-_Creation_of_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:13:53.831 INFO  [Negative_-_creation_of_duplicate_service_type] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:14:04.855 INFO  [Negative_-_creation_of_duplicate_service_type] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:14:06.879 INFO  [Negative_-_creation_of_duplicate_service_type] [step=02] LoginSteps - Clicked on appointment scheduling
+2025-09-08 16:14:07.104 INFO  [Negative_-_creation_of_duplicate_service_type] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:14:09.324 INFO  [Negative_-_creation_of_duplicate_service_type] [step=04] LoginSteps - Clicked on Manager Service Type
+2025-09-08 16:14:10.682 INFO  [Negative_-_creation_of_duplicate_service_type] [step=05] LoginSteps - Clicked on Add Service Type
+2025-09-08 16:14:11.268 INFO  [Negative_-_creation_of_duplicate_service_type] [step=06] LoginSteps - user entered details
+2025-09-08 16:14:12.544 INFO  [Negative_-_creation_of_duplicate_service_type] [step=07] LoginSteps - Clicked on save button
+2025-09-08 16:14:12.766 INFO  [Negative_-_creation_of_duplicate_service_type] [step=08] LoginSteps - user will see a messageName is duplicated
+2025-09-08 16:14:12.926 INFO  [Negative_-_creation_of_duplicate_service_type] [step=08] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:14:15.333 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:14:22.041 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:14:45.665 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=02] LoginSteps - Clicked on register patient menu
+2025-09-08 16:14:45.865 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:14:47.964 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=04] LoginSteps - user enters patient details
+2025-09-08 16:14:53.225 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=05] LoginSteps - Clicked on submit button
+2025-09-08 16:15:03.015 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=06] LoginSteps - The user will see the Patient ID
+2025-09-08 16:15:03.272 INFO  [Positive_Testcase-_Registration_of_patient_with_all_details] [step=06] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:15:11.971 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:15:21.305 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:15:37.933 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=02] LoginSteps - Clicked on register patient menu
+2025-09-08 16:15:38.163 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:15:38.493 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=04] LoginSteps - user enters few patient details
+2025-09-08 16:15:38.772 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=05] LoginSteps - user will see a validation error Given Name
+2025-09-08 16:15:38.919 INFO  [Negative_Testcase-_Attempt_to_register_patient_with_missing_fields] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:15:41.719 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:15:49.403 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:15:55.516 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=02] LoginSteps - user clicks on find patient record
+2025-09-08 16:15:55.791 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:16:13.838 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=04] LoginSteps - user enters patient name and clicks on details
+2025-09-08 16:16:14.129 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=05] LoginSteps - user should see a record with given patient name
+2025-09-08 16:16:14.338 INFO  [Positive_Case_-_Finding_a_valid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:16:16.755 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:16:28.028 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=01] LoginSteps - Logged in successfully and navigated to home page
+2025-09-08 16:16:34.443 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=02] LoginSteps - user clicks on find patient record
+2025-09-08 16:16:34.738 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=03] LoginSteps - Navigating to home page
+2025-09-08 16:16:45.318 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=04] LoginSteps - user enters patient name and clicks on details
+2025-09-08 16:16:45.747 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=05] LoginSteps - user should see non matching text
+2025-09-08 16:16:45.900 INFO  [Negative_Case_-_Attempt_to_find_a_invalid_patient_record] [step=05] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:16:48.929 INFO  [Positive_-_Login_with_valid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:16:57.886 INFO  [Positive_-_Login_with_valid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 16:16:58.965 INFO  [Positive_-_Login_with_valid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 16:17:02.418 INFO  [Positive_-_Login_with_valid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 16:17:02.620 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 16:17:02.833 INFO  [Positive_-_Login_with_valid_credentials] [step=04] LoginSteps - ===== END SCENARIO =====
+2025-09-08 16:17:08.172 INFO  [Negative_-_Login_with_invalid_credentials] [step=] LoginSteps - ===== START SCENARIO =====
+2025-09-08 16:17:16.134 INFO  [Negative_-_Login_with_invalid_credentials] [step=01] LoginSteps - Navigating to Login page
+2025-09-08 16:17:16.698 INFO  [Negative_-_Login_with_invalid_credentials] [step=02] LoginSteps - Entering login details
+2025-09-08 16:17:18.064 INFO  [Negative_-_Login_with_invalid_credentials] [step=03] LoginSteps - Clicking on login button
+2025-09-08 16:17:18.265 INFO  [Negative_-_Login_with_invalid_credentials] [step=04] LoginSteps - Navigating to home page
+2025-09-08 16:17:18.545 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - An error message is displayed
+2025-09-08 16:17:18.743 INFO  [Negative_-_Login_with_invalid_credentials] [step=05] LoginSteps - ===== END SCENARIO =====
