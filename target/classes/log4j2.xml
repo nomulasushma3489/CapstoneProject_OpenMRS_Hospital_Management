@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+  <Properties>
+    <Property name="LOG_DIR">${sys:user.dir}/test-output/logs</Property>
+    <Property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{scenario}] [step=%X{step}] %logger{1} - %msg%n</Property>
+  </Properties>
+
+  <Appenders>
+    <!-- Console (nice for local dev) -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="${PATTERN}"/>
+    </Console>
+    
+    <!-- Per-scenario TEXT logs -->
+    <Routing name="RouteText">
+      <Routes pattern="${ctx:scenario}">
+        <!-- default route if scenario not set -->
+        <Route>
+          <RollingFile name="DefaultText"
+                       fileName="${LOG_DIR}/automation.log"
+                       filePattern="${LOG_DIR}/_unspecified-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${PATTERN}"/>
+            <Policies>
+              <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+              <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+          </RollingFile>
+        </Route>
+        <!-- scenario-specific -->
+        <Route key="${ctx:scenario}">
+          <RollingFile name="ScenarioText"
+                       fileName="${LOG_DIR}/${ctx:scenario}.log"
+                       filePattern="${LOG_DIR}/${ctx:scenario}-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${PATTERN}"/>
+            <Policies>
+              <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+              <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+          </RollingFile>
+        </Route>
+      </Routes>
+    </Routing>
+
+    <!-- Per-scenario HTML logs -->
+    <Routing name="RouteHtml">
+      <Routes pattern="${ctx:scenario}">
+        <Route>
+          <RollingFile name="DefaultHtml"
+                       fileName="${LOG_DIR}/automation.html"
+                       filePattern="${LOG_DIR}/_unspecified-%d{yyyy-MM-dd}-%i.html.gz">
+            <HtmlLayout title="Automation Log" locationInfo="true"/>
+            <Policies>
+              <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+              <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+          </RollingFile>
+        </Route>
+        <Route key="${ctx:scenario}">
+          <RollingFile name="ScenarioHtml"
+                       fileName="${LOG_DIR}/${ctx:scenario}.html"
+                       filePattern="${LOG_DIR}/${ctx:scenario}-%d{yyyy-MM-dd}-%i.html.gz">
+            <HtmlLayout title="Automation Log - ${ctx:scenario}" locationInfo="true"/>
+            <Policies>
+              <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+              <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+          </RollingFile>
+        </Route>
+      </Routes>
+    </Routing>
+    
+  </Appenders>
+
+  <Loggers>
+    <Logger name="org.openqa.selenium" level="warn" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RouteText"/>
+      <AppenderRef ref="RouteHtml"/>
+    </Logger>
+
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RouteText"/>
+      <AppenderRef ref="RouteHtml"/>
+    </Root>
+  </Loggers>
+</Configuration>

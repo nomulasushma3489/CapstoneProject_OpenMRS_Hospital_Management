@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="252.503" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Register a patient" name="Positive - Creation of service type" time="42.802">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to add service type...................passed
+When the user clicks on Appointment Scheduling..............................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+When the user clicks on Manage Service Types................................passed
+And clicks on new service type..............................................passed
+And enters details:.........................................................passed
+And clicks on save button...................................................passed
+Then the user should be directed to "Manage Service Types"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a patient" name="Negative - creation of duplicate service type" time="21.769">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to add service type...................passed
+When the user clicks on Appointment Scheduling..............................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+When the user clicks on Manage Service Types................................passed
+And clicks on new service type..............................................passed
+And enters details:.........................................................passed
+And clicks on save button...................................................passed
+Then user should see a message "Name is duplicated".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a patient" name="Positive Testcase- Registration of patient with all details" time="52.545">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to register a patient.................passed
+When the user clicks on Register a Patient..................................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+And the user enters new patient details:....................................passed
+And the user clicks on submit button........................................passed
+Then the user should see "Patient ID" text..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a patient" name="Negative Testcase- Attempt to register patient with missing fields" time="33.646">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to register a patient.................passed
+When the user clicks on Register a Patient..................................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+And the user enters few patient details:....................................passed
+And I should see a validation error for "Given Name"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Find a patient record" name="Positive Case - Finding a valid patient record" time="35.294">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to find a patient record..............passed
+When the user clicks on Find Patient Record.................................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+When the user enters patient name and click on details......................passed
+Then the user should see a record with patient name.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Find a patient record" name="Negative Case - Attempt to find a invalid patient record" time="31.406">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS to find a patient record..............passed
+When the user clicks on Find Patient Record.................................passed
+Then the user should be directed to "OpenMRS Electronic Medical Record" page.passed
+When the user enters patient name and click on details......................passed
+Then the user should see "No matching records found"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="Positive - Login with valid credentials" time="19.505">
+<system-out><![CDATA[
+Given the user is on the OpenMRS login page.................................passed
+When the user enters username "admin" password "Admin123" selects session "Registration Desk".passed
+And clicks on Login button..................................................passed
+Then the user should be directed to "Home" page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="Negative - Login with invalid credentials" time="13.223">
+<system-out><![CDATA[
+Given the user is on the OpenMRS login page.................................passed
+When the user enters username "invaliduser" password "invalidpassword" selects session "Registration Desk".passed
+And clicks on Login button..................................................passed
+Then the user should be directed to "Login" page............................passed
+And an error message "Invalid username/password. Please try again." should be displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>
